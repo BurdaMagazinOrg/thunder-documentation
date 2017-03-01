@@ -1,3 +1,9 @@
+# Local installation
+See `DOC_LOCAL_SETUP.md`
+
+
+# Structure
+
 LOGO
 
 Description
