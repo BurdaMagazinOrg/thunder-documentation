@@ -4,7 +4,7 @@ See `DOC_LOCAL_SETUP.md`
 
 # Structure
 
-LOGO
+<img src="assets/logos/Thunder.svg" alt="Thunder Logo" width="400" />
 
 Description
 
