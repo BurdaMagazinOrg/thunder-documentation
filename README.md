@@ -19,7 +19,7 @@ Link Demoversion
 4. Slack
 5. Roadmap? -> only main features
 
-## Tutorials
+## [Tutorials](tutorials)
 1. How to write an article
     1. How Channels work
     2. How to manage media
