@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+LOGO
 
-You can use the [editor on GitHub](https://github.com/BurdaMagazinOrg/thunder-documentation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Feature Highlights
 
-### Markdown
+Link Demoversion
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## What is Thunder
+1. Detailed Feature-List
+2. Who is doing it
+3. How can I contact
+4. Slack
+5. Roadmap? -> only main features
 
-```markdown
-Syntax highlighted code block
+## Tutorials
+1. How to write an article
+    1. How Channels work
+    2. How to manage media
+    3. How to integrate social media
+    4. How to add video
+    5. How to create Riddle
+    6. How to liveblog
+2. How to set-up things
+    1. Social media integration
+    2. AdSense
+    3. AMP / Instant Articles
+    4. Video
+    5. Analytics
+    6. IVW
+    7. SSO
+    8. Riddle
+3. How to configure Drupal
+    1. How to use views
+    2. User managment
+    3. Metatag
+    4. Pathauto
+    5. Blocks
+    6. Update
+    7. Adding Fields and stuff like that ;)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BurdaMagazinOrg/thunder-documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Technical Documentation
+1. DevOps
+    1. Environment Setup -> Pre-requirements?
+    2. Varnish
+    3. CDN
+    4. Database config
+    5. Search Engines
+2. Installation & Updating
+    1. Pre-requirements
+        1. PHP config
+        2. MySQL config
+    2. Installation instructions
+    3. Config updates
+4. Under the Hood
+    1. How articles work
+    2. How media works
+5. Internationalization / Localisation
+6. Contributing
+7. Extending
+8. Testing
