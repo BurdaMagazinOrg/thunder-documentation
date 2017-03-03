@@ -11,7 +11,7 @@ Description
 Feature Highlights
 
 Quick install
-1.    Download and install the Acquia Dev Desktop: https://dev.acquia.com/downloads
+1.    Download and install the Acquia Dev Desktop: [https://dev.acquia.com/downloads](https://dev.acquia.com/downloads)
 2.    Open the Acquia Dev Desktop. Click on “+“ and then on “New Drupal Site“.
 3.    Find Thunder in the list and click on “Install“. You’ll be asked to fill a form with some data, but for testing Thunder just leave it as it is. Click “Finish” and Thunder will be downloaded to your system.
 4.    After this process is finished, click on the link to the „Local site” and Thunder will open in your browser.
