@@ -10,10 +10,9 @@ Description
 
 Feature Highlights
 
-* **Create articles dynamically with paragraphs**: Using paragraphs, you can add text, pictures, videos, Instagram or Twitter cards to your article – and change the order by dragging and dropping the content wherever you like it. Thanks to a preview mode, you get a good idea of how your article will look like in the end.
+* **Create articles dynamically with paragraphs**: Using paragraphs, you can add text with a WYSIWYG-editor, pictures, videos, Instagram or Twitter cards to your article – and change the order by dragging and dropping the content wherever you like it. Thanks to a preview mode, you get a good idea of how your article will look like in the end.
 * **Working in distributed teams**: Thunder is a web-based system, so you can add and edit articles from everywhere. All you need is a computer and access to the Internet. Every modification to an article is saved in revisions. So, you can easily understand who did changes to your article. Plus, you can share a link to an unpublished article with external co-workers and give them access for a limited time. 
 * **User management**: In Thunder, you can define lots of different roles for every need—and allocate various rights.
-* **Liveblog**: This module helps to cover events as they happen, like sport events or elections.
 * **Schedule your content**: You can plan when texts should be published, and you can also set a date to remove the article from your website. Also, you can set an expire date for images. After this, the picture will be replaced with a placeholder.
 * **Improved media handling**: With the help of the media browser, it’s very easy to add pictures, galleries, or videos to your article. You can upload new pictures to the media browser by just dragging and dropping. The pictures are cropped automatically and with the focal point, you can define the important part of the picture, which should be visible in every layout.
 * **Keep your users engaged with Riddle**: With [Riddle] (https://www.riddle.com/), any editor can quickly create professional quizzes, polls, or personality tests. Publishers can use these to generate more traffic on their sites and to monetize this traffic with lead generation or selling sponsored quiz slots. 
@@ -26,23 +25,9 @@ Feature Highlights
 * **Ad-Integration**: We integrated Google AdSense. This enables you to embed advertisements into your website and earn money without developing your own solution.
 * **Demo Content and Guided Tour**: We added demo content and a guided tour to make it easier for newcomers to understand how Thunder works. Step by step, we explain how to add an article, how to edit an article, or how to add and sort channels. 
 * **Arrange your content**: Use categories and tags to sort your articles. Plus, you can easily create lists of content, such as the most read articles, or a package about a specific topic.
-
-NOCH OFFEN
-* Feeds: ????
-* Multilingual: ???
-* Structure articles
-  * WYSIWYG-Editor
-  * verschiedene Ansichten (Teaser)
-* Technical details
-  * Scalability
-    * Caching system
-  * Migration support
-  * Big community
-    * Support system
-  * Rest API/ decoupled frontend
-  * Themeable
-  * Extendable with 2500+ modules
-  * Tested with 10.000+ automated tests
+* **Multilingual**: Create webpages in multiple languages with Thunder.
+* **Flexible System**: With Thunder, you get a system with a very high scalability. It's extendable with more than 2500 modules to fit every need. Plus, it's themeable.
+* **Big Drupal community**: Benefit from an active community with more than 100.000 user actively contributing and more than 2000 commits per week. In the Drupal and the Thunder community you'll find support if needed.
 
 Link Demoversion
 
