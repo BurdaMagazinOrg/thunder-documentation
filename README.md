@@ -41,7 +41,7 @@ Link Demoversion
 5. Roadmap? -> only main features
 
 ## [Tutorials](tutorials)
-1. How to write an article
+1. How to write an article [Link to video tutorial "How to write an article"](https://www.youtube.com/watch?v=supI1IE0P2M)
     1. How Channels work
     2. How to manage media
     3. How to integrate social media
