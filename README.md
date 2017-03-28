@@ -31,8 +31,6 @@ See `DOC_LOCAL_SETUP.md`
 7. Now you could choose additional modules, but for an easy start, we recommend using the default selection. Click on “Save and Continue” for the last time.
 8. You’re done! Your Thunder site opens and you can start the tour to show you around.
 
-Link Demoversion
-
 ## What is Thunder
 1. Detailed Feature-List
 2. Who is doing it
