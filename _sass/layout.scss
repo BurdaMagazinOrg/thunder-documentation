@@ -17,8 +17,8 @@ body {
     &>.active>a,
     &>.active>a:hover,
     &>li>a:hover {
-      color: #463265;
-      background-color: #f9f9f9;
+      color: $active-color;
+      background-color: $superlight-gray;
     }
   }
 
@@ -43,7 +43,7 @@ body {
     padding: 4px 20px;
     font-size: 15px;
     font-weight: 500;
-    color: #767676;
+    color: $gray;
   }
   .nav > .active {
     & > ul {
@@ -80,7 +80,7 @@ body {
     margin-left: 10px;
     font-size: 12px;
     font-weight: 500;
-    color: #999;
+    color: $light-gray;
 
     @media (min-width: 768px) {
       display: block;
@@ -91,7 +91,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 100px;
-  color: #99979c;
+  color: $light-gray;
   text-align: center;
   background-color: #2a2730;
 
