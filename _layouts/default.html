@@ -31,11 +31,9 @@
     <div class="col-md-3">
       <div class="docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
         <ul class="nav docs-sidenav">
-          <!-- Just include navigation based on slug, an include and data -->
-          {% if page.slug == "tutorials" %}
-            {% include nav/tutorials.html %}
-          {% elsif page.slug == "docs" %}
-            {% include nav/docs.html %}
+          <!-- Just include navigation based on slug, an include and site.data -->
+          {% if page.slug and site.data[page.slug] %}
+            {% include nav/sidebar.html items=site.data[page.slug] %}
           {% endif %}
         </ul>
         <a class="back-to-top" href="#top">
