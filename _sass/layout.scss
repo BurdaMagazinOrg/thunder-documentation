@@ -21,6 +21,12 @@ body {
       background-color: #f9f9f9;
     }
   }
+
+  .navbar-toggle {
+    .icon-bar {
+      background-color: $link-color;
+    }
+  }
 }
 
 .navbar-brand {
