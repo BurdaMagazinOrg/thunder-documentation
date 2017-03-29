@@ -1,3 +1,5 @@
+{% include youtube.html id="supI1IE0P2M" %}
+
 _Competently_ cultivate functionalized platforms whereas clicks-and-mortar users. Assertively facilitate backward-compatible supply chains after real-time convergence. Energistically provide access to one-to-one markets through market positioning infrastructures. Proactively promote viral metrics and resource maximizing resources. Dynamically repurpose cooperative expertise with virtual resources.
 
 Enthusiastically utilize e-business systems with cutting-edge systems. Monotonectally benchmark reliable interfaces and covalent functionalities. Authoritatively build transparent applications for alternative e-markets. Holisticly morph collaborative materials with go forward imperatives. Rapidiously generate interdependent manufactured products whereas web-enabled e-tailers.

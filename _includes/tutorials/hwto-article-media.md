@@ -1,3 +1,5 @@
+{% include youtube.html id="THclTgZ4qIk" %}
+
 Completely disintermediate efficient core competencies before strategic human capital. Enthusiastically deploy team driven e-commerce before resource maximizing collaboration and idea-sharing. Phosfluorescently syndicate client-focused alignments via performance based materials. Proactively optimize future-proof strategic theme areas and value-added meta-services. Credibly evolve enterprise schemas vis-a-vis impactful alignments.
 
 Progressively create premier catalysts for change and enterprise-wide resources. Rapidiously iterate multifunctional ROI for out-of-the-box e-commerce. Seamlessly recaptiualize client-based channels with cross-media metrics. Conveniently administrate customer directed alignments through market-driven markets. Monotonectally network vertical infomediaries before corporate benefits.

@@ -2,6 +2,6 @@
   include: tutorials/hwto-article.md
   id: hwto-article
   subs:
-    - title: How channels work
-      include: tutorials/hwto-article-channels.md
-      id: hwto-article-channels
+    - title: How to manage media
+      include: tutorials/hwto-article-media.md
+      id: hwto-article-media
