@@ -1,0 +1,7 @@
+<div class="docs-section">
+  <h2 id="{{ include.id }}">{{ include.title }}</h2>
+  {% capture stuff_to_markdownify %}
+    {% include {{ include.src }} %}
+  {% endcapture %}
+  {{ stuff_to_markdownify | strip | markdownify}}
+</div>

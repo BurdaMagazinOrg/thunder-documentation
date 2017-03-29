@@ -1,0 +1,10 @@
+- title: DevOps
+  include: docs/devops.md
+  id: devops
+  subs:
+    - title: Varnish
+      include: docs/devops-varnish.md
+      id: devops-varnish
+- title: Installation & Updating
+  include: docs/install-update.md
+  id: install-update
