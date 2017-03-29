@@ -5,3 +5,10 @@
     - title: How to manage media
       include: tutorials/hwto-article-media.md
       id: hwto-article-media
+- title: How to set-up things
+  include: tutorials/hwto-setup.md
+  id: hwto-setup
+  subs:
+    - title: Installing Thunder locally
+      include: tutorials/hwto-setup-install-local.md
+      id: hwto-setup-install-local
