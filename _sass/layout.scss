@@ -46,6 +46,11 @@ body {
     color: #767676;
   }
   .nav > .active {
+    & > ul {
+      @media (min-width: 992px) {
+        display: block;
+      }
+    }
     & > a, &:hover > a, &:focus > a {
       padding-left: 18px;
       font-weight: 700;
@@ -55,12 +60,16 @@ body {
     }
   }
 
-  .nav .nav > li > a {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 30px;
-    font-size: 14px;
-    font-weight: 400;
+  .nav .nav {
+    // This hides subsections, until scrolled into the parent section
+    // display: none;
+    & > li > a {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 30px;
+      font-size: 14px;
+      font-weight: 400;
+    }
   }
 }
 
