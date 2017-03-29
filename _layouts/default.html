@@ -2,13 +2,13 @@
 <html lang="en-us">
 <head>
   <!-- Meta, title, CSS, favicons, etc. -->
-    {% include header.html %}
+    {% include _layout/header.html %}
 </head>
 <body>
   <a class="sr-only  sr-only-focusable" href="#content">Skip to main content</a>
 
   <!-- Docs master nav -->
-  {% include nav/main.html %}
+  {% include _nav/main.html %}
 
   <section class="page-header" id="content">
     <div class="container">
@@ -34,7 +34,7 @@
           <!-- Just include navigation based on slug, an include and site.data -->
           {% if page.slug and site.data[page.slug] %}
             {% assign sidebarItems=site.data[page.slug] %}
-            {% include nav/sidebar.html items=sidebarItems %}
+            {% include _nav/sidebar.html items=sidebarItems %}
           {% endif %}
         </ul>
         <a class="back-to-top" href="#top">
@@ -44,6 +44,6 @@
     </div>
   </section>
 
-  {% include footer.html %}
+  {% include _layout/footer.html %}
 </body>
 </html>

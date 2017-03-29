@@ -1,5 +1,5 @@
 {% for item in include.items %}
-  {% include section.html
+  {% include _layout/section.html
     src=item.include
     id=item.id
     title=item.title
@@ -9,7 +9,7 @@
     {% comment %}
       Next line has to be indented this way, to prevent the automatic syntax highlighting
     {% endcomment %}
-{% include subsection.html
+{% include _layout/subsection.html
   src=sub.include
   id=sub.id
   title=sub.title
