@@ -44,6 +44,14 @@ body {
     font-size: 15px;
     font-weight: 500;
     color: $gray;
+
+    &:hover, &:focus {
+      padding-left: 18px;
+      color: $link-color;
+      text-decoration: none;
+      background-color: transparent;
+      border-left: 2px solid $link-color;
+    }
   }
   .nav > .active {
     & > ul {
@@ -69,6 +77,12 @@ body {
       padding-left: 30px;
       font-size: 14px;
       font-weight: 400;
+    }
+    & > .active {
+      & > a, & > a:focus, & > a:hover {
+        padding-left: 30px;
+        font-weight: 500;
+      }
     }
   }
 }
