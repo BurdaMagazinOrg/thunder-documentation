@@ -1,14 +1,14 @@
 - title: How to create an Article
-  include: tutorials/hwto-article.md
-  id: hwto-article
+  include: tutorials/howto-article.md
+  id: howto-article
   subs:
     - title: How to manage media
-      include: tutorials/hwto-article-media.md
-      id: hwto-article-media
+      include: tutorials/howto-article-media.md
+      id: howto-article-media
 - title: How to set-up things
-  include: tutorials/hwto-setup.md
-  id: hwto-setup
+  include: tutorials/howto-setup.md
+  id: howto-setup
   subs:
     - title: Installing Thunder locally
-      include: tutorials/hwto-setup-install-local.md
-      id: hwto-setup-install-local
+      include: tutorials/howto-setup-install-local.md
+      id: howto-setup-install-local
