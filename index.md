@@ -2,11 +2,6 @@
 title: Thunder
 permalink: /
 ---
-
-# Local installation
-See `DOC_LOCAL_SETUP.md`
-
-
 # Structure
 
 <img src="assets/logos/Thunder.svg" alt="Thunder Logo" width="400" />
