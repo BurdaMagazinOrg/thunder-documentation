@@ -9,7 +9,7 @@
 <link href="{{ '/libs/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
 {% if page.slug == "css" or page.slug == "components" or page.slug == "js" %}
   <!-- Optional Bootstrap Theme -->
-  <link href="data:text/css;charset=utf-8," data-href="../dist/css/bootstrap-theme.min.css" rel="stylesheet" id="bs-theme-stylesheet">
+  <link href="data:text/css;charset=utf-8," data-href="{{ '/dist/css/bootstrap-theme.min.css' | relative_url }}" rel="stylesheet" id="bs-theme-stylesheet">
 {% endif %}
 
 <!-- Custom styles -->

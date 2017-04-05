@@ -7,15 +7,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="../" class="navbar-brand">Thunder</a>
+      <a href="{{ '/' | relative_url }}" class="navbar-brand">Thunder</a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li{% if page.slug == "tutorials" %} class="active"{% endif %}>
-          <a href="../tutorials">Tutorials</a>
+          <a href="{{ '/tutorials' | relative_url }}">Tutorials</a>
         </li>
         <li{% if page.slug == "docs" %} class="active"{% endif %}>
-          <a href="../docs">Documentation</a>
+          <a href="{{ '/tutorials' | relative_url }}">Documentation</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

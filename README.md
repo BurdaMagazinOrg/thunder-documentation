@@ -29,7 +29,7 @@ description: "Technical documentation"
 
 1. install Bundler and Jekyll with `gem install jekyll bundler`
 2. Install dependencies with `bundle install`
-3. Execute jekyll server with `bundle exec jekyll serve`
+3. Execute jekyll server with `bundle exec jekyll serve --config _config.yml,_config_dev.yml`
 
 For more information on Github-Pages, see: https://help.github.com/categories/github-pages-basics/
 
