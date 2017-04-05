@@ -1,3 +1,7 @@
 ---
 ---
-@import "{{ site.theme }}";
+
+// @import "normalize";
+@import "variables";
+@import "layout";
+@import "youtube";

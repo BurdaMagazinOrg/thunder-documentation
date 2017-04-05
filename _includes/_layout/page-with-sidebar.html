@@ -1,0 +1,22 @@
+{% for item in include.items %}
+  {% include _layout/section.html
+    src=item.include
+    id=item.id
+    title=item.title
+  %}
+  {% if item.subs %}
+    {% for sub in item.subs %}
+    {% comment %}
+      Next line has to be indented this way, to prevent the automatic syntax highlighting
+    {% endcomment %}
+{% include _layout/subsection.html
+  src=sub.include
+  id=sub.id
+  title=sub.title
+      %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+{% endcomment %}

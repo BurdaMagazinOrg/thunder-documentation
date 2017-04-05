@@ -1,0 +1,14 @@
+- title: How to create an Article
+  include: tutorials/howto-article.md
+  id: howto-article
+  subs:
+    - title: How to manage media
+      include: tutorials/howto-article-media.md
+      id: howto-article-media
+- title: How to set-up things
+  include: tutorials/howto-setup.md
+  id: howto-setup
+  subs:
+    - title: Installing Thunder locally
+      include: tutorials/howto-setup-install-local.md
+      id: howto-setup-install-local

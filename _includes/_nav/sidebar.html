@@ -1,0 +1,10 @@
+{% for item in include.items %}
+<li>
+    <a href="#{{ item.id }}">{{ item.title }}</a>
+    <ul class="nav">
+      {% for sub in item.subs %}
+        <li><a href="#{{ sub.id }}">{{ sub.title }}</a></li>
+      {% endfor %}
+    </ul>
+</li>
+{% endfor %}

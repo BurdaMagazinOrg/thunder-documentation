@@ -1,0 +1,7 @@
+<div class="docs-section">
+  <h1 id="{{ include.id }}" class="page-header">{{ include.title }}</h1>
+    {% capture stuff_to_markdownify %}
+      {% include {{ include.src }} %}
+    {% endcapture %}
+    {{ stuff_to_markdownify | strip | markdownify}}
+</div>
