@@ -1,0 +1,1 @@
+In the following documentation, it will be explained how to install Thunder on Ubuntu Linux based server.
