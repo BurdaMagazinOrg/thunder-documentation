@@ -65,25 +65,8 @@ expect -f - <<-EOF
 EOF
 
 # Setup Apache
-sudo a2enmod rewrite ssl actions fastcgi alias
+sudo a2enmod rewrite ssl fastcgi proxy_fcgi
 sudo a2enconf php7.0-fpm
-
-cat <<EOF >> /etc/apache2/conf-available/php7.0-fpm.conf
-
-<IfModule mod_fastcgi.c> 
-   AddHandler php7-fcgi .php 
-   Action php7-fcgi /php7-fcgi 
-   Alias /php7-fcgi /usr/lib/cgi-bin/php7-fcgi 
-   FastCgiExternalServer /usr/lib/cgi-bin/php7-fcgi -socket /run/php/php7.0-fpm.sock -pass-header Authorization -idle-timeout 3600 
-   <Directory /usr/lib/cgi-bin> 
-       Require all granted 
-   </Directory> 
-    <FilesMatch ".+\.ph(p[345]?|t|tml)$"> 
-        SetHandler php7-fcgi 
-    </FilesMatch> 
-</IfModule>
-EOF
-
 service apache2 restart
 
 # Setup MySQL

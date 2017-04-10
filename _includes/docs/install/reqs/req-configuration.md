@@ -3,32 +3,10 @@
 We need to enable several modules required by Apache to fulfill all requirements for site. Execution of the following command should enable all required modules:
 
 ```
-# sudo a2enmod rewrite ssl actions fastcgi alias
+# sudo a2enmod rewrite ssl fastcgi proxy_fcgi
 ```
 
-After that ```php-fpm``` should be enabled. In order to make it, additional Apache configuration has to be added in ```php7.0-fpm.conf``` file:
- 
-```
-# sudo vi /etc/apache2/conf-available/php7.0-fpm.conf
-```
- 
-And add following configuration at the end of file:
-```
-<IfModule mod_fastcgi.c>
-   AddHandler php7-fcgi .php
-   Action php7-fcgi /php7-fcgi
-   Alias /php7-fcgi /usr/lib/cgi-bin/php7-fcgi
-   FastCgiExternalServer /usr/lib/cgi-bin/php7-fcgi -socket /run/php/php7.0-fpm.sock -pass-header Authorization -idle-timeout 3600
-   <Directory /usr/lib/cgi-bin>
-       Require all granted
-   </Directory>
-    <FilesMatch ".+\.ph(p[345]?|t|tml)$">
-        SetHandler php7-fcgi
-    </FilesMatch>
-</IfModule>
-```
-
-The last step to enable using of ```php-fpm``` with Apache is to enable configuration for it and restart Apache service.
+After that ```php-fpm``` configuration should be enabled for Apache and restart of ```apache2``` service has to be made in order to apply of configuration changes for it.
 ```
 # sudo a2enconf php7.0-fpm
 # sudo service apache2 restart
