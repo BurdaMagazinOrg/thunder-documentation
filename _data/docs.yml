@@ -1,0 +1,22 @@
+- title: Installation
+  include: docs/install.md
+  id: docs-install
+  subs:
+    - title: Operating system pre-requirements
+      include: docs/install/reqs/req-operating-system.md
+      id: docs-install-req-operating-system
+    - title: System requirements
+      include: docs/install/reqs/req-lamp.md
+      id: docs-install-req-lamp
+    - title: Configuration
+      include: docs/install/reqs/req-configuration.md
+      id: docs-install-req-configuration
+    - title: Installation of Thunder
+      include: docs/install/installation.md
+      id: docs-install-installation
+    - title: Post installation configurations
+      include: docs/install/post-installation.md
+      id: docs-install-post-installation
+    - title: AWS EC2 User data example
+      include: docs/install/aws-user-data.md
+      id: docs-install-post-installation
