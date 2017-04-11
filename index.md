@@ -64,7 +64,7 @@ permalink: /
     6. Update
     7. Adding Fields
 
-## Technical Documentation
+## Technical Documentation TODO
 1. DevOps
     1. Environment Setup -> Pre-requirements?
     2. Varnish
@@ -72,11 +72,8 @@ permalink: /
     4. Database config
     5. Search Engines
 2. Installation & Updating
-    1. Pre-requirements
-        1. PHP config
-        2. MySQL config
-    2. Installation instructions
-    3. Config updates
+    1. Installation instructions <-- migration needed
+    2. Config updates
 4. Under the Hood
     1. How articles work
     2. How media works

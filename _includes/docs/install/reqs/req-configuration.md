@@ -1,12 +1,12 @@
 #### Configure Apache server
 
-We need to enable several modules required by Apache to fulfill all requirements for site. Execution of the following command should enable all required modules:
+We need to enable several modules required by Apache to fulfill all requirements for the site. Execution of the following command should enable all required modules:
 
 ```
 # sudo a2enmod rewrite ssl fastcgi proxy_fcgi
 ```
 
-After that ```php-fpm``` configuration should be enabled for Apache and restart of ```apache2``` service has to be made in order to apply of configuration changes for it.
+After that ```php-fpm``` configuration should be enabled for Apache and a restart of ```apache2``` service has to be made in order to apply of configuration changes for it.
 ```
 # sudo a2enconf php7.0-fpm
 # sudo service apache2 restart
@@ -14,7 +14,7 @@ After that ```php-fpm``` configuration should be enabled for Apache and restart 
 
 #### Configure MySQL database
 
-Start MySQL client to execute SQL statements required for installation of Thunder.
+Start MySQL client to execute SQL statements required for the installation of Thunder.
 
 ```
 # sudo mysql -u root -p
@@ -26,26 +26,26 @@ Following SQL statement should be executed to create a database that will be use
 mysql> CREATE DATABASE thunder;
 ```
 
-For next command you have to specify a password for your user, so replace ```[PASSWORD]``` with the password you want:
+For the next command you have to specify a password for your user, so replace ```[PASSWORD]``` with the password you want:
 ```
 mysql> CREATE USER 'thunder'@'localhost' IDENTIFIED BY '[PASSWORD]';
 ```
 
-To grant all access rights required for proper site functioning, following statement should be executed.
+To grant all access rights required for a proper functioning site, following statement should be executed.
 ```
 mysql> GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES ON thunder.* TO 'thunder'@'localhost';
 ```
 
-Since all required configuration is finished, you can exit MySQL client by typing ```exit```. With that MySQL database configuration requirements are changed.
+Since all required configuration changes are done, you can exit MySQL client by typing ```exit```. With that MySQL database configuration requirements are changed.
 
 #### Configure PHP
 
-It would be also nice to additionally tweak OPcache configuration for PHP FPM service. You should open OPcache configuration file:
+It would also be nice to additionally tweak OPcache configuration for PHP FPM service. You should open OPcache configuration file:
 ```
 # sudo vi /etc/php/7.0/fpm/conf.d/10-opcache.ini
 ```
 
-And add following configuration at end of it:
+And add following configuration at the end of it:
 ```
 opcache.enable=1
 opcache.memory_consumption=128

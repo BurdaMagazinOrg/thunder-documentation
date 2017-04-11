@@ -8,7 +8,7 @@ First, available packages should be fetched with an execution of the following c
 
 #### 1. Web Server
 
-We have used Apache2 server because it's widely used for Drupal sites and also Drupal provides some additional security features only for Apache. 
+We have used Apache2 server because it's widely used for Drupal sites and also Drupal provides some additional security features only for Apache.
 Apache can be installed with the following command:
 
 ```
@@ -24,8 +24,8 @@ Since MySQL is most known and widely used database, it will be used also in this
 # sudo apt-get install mysql-server mysql-client -y
 ```
 
-The installation process will require from user to type-in password for database root user. It's suggested to set a strong password,
-but also a connection to MySQL server should be limited only from localhost.
+The installation process will require to type-in the password for the database root user. It's suggested to set a strong password,
+but also a connection to the MySQL server should be limited only from localhost.
 
 To ensure that MySQL server is properly secured it's advised to execute following command and follow instructions:
 ```
@@ -35,7 +35,7 @@ To ensure that MySQL server is properly secured it's advised to execute followin
 #### 3. PHP with required libraries
 
 Next step is to install PHP with all required libraries.
-Since we are using latest LTS release of Ubuntu, it comes with PHP 7.0 and that's also recommended PHP version for Thunder since it has a way better performance compared to older version of PHP (version 5.6). 
+Since we are using latest LTS release of Ubuntu, it comes with PHP 7.0 and that's also the recommended PHP version for Thunder since it has a way better performance compared to older version of PHP (version 5.6).
 
 To install PHP and all required libraries you can execute the following command:
 ```
@@ -44,10 +44,10 @@ To install PHP and all required libraries you can execute the following command:
 
 #### 4. Composer and NodeJS
 
-The composer is used for downloading of project and installation of it. It's tool for dependency management in PHP. It allows you to declare project dependencies and it will manage (install/update) them.
+Composer is used for downloading of project and installation of it. It's a tool for dependency management in PHP. It allows you to declare project dependencies and it will manage (install/update) them.
 
-To install composer you can read [installation instructions here](https://getcomposer.org/download).
-Composer executable will be fetched in the directory where installation process is executed, but it would be better to set it in the ```bin``` directory of the user, so that we have that command in the console.
+To install Composer you can read [installation instructions here](https://getcomposer.org/download).
+The Composer executable will be fetched in the directory where the installation process is executed, but it would be better to set it in the ```bin``` directory of the user, so that we have that command in the console.
 
 In order to do that, execute following commands:
 
@@ -63,7 +63,7 @@ You can verify that by executing:
 # composer list
 ```
 
-Additional requirements are NodeJS and ```npm``` command. It's needed for deploying of several JavaScript libraries used by Thunder to correct place.
+Additional requirements are NodeJS and ```npm``` command. It's needed for deploying several JavaScript libraries used by Thunder to the correct place.
 The ```bower``` is used for that. To install NodeJS on your system, following command can be executed:
 
 ```
@@ -72,7 +72,7 @@ The ```bower``` is used for that. To install NodeJS on your system, following co
 
 #### 5. Git
 
-It's common for Linux operating systems to came with ```git``` already installed. You can verify it with executing the following command:
+It's common for Linux operating systems to come with ```git``` already installed. You can verify it with executing the following command:
 
 ```
 # git --version
@@ -86,14 +86,14 @@ If the ```git``` command is not available you can install it by executing the fo
 
 #### 6. Drush (optional)
 
-We also recommend installing the ```drush``` command globally for your user, since this command is used for manipulation of Drupal projects and it has very handy tools. 
+We also recommend installing the ```drush``` command globally for your user, since this command is used for manipulation of Drupal projects and it has very handy tools.
 
-Since composer is available on the system, installation of drush command globally for the user can be easily done. With following command you will install drush command:
+Since Composer is available on the system, installation of drush command globally for the user can easily be done. With following command you will install drush command:
 ```
 # composer global require drush/drush
 ```
 
-To make all globally installed composer commands available in the console, a path to global composer bin directory has to be added into PATH environment variable.
+To make all globally installed composer commands available in the console, a path to global composer bin directory has to be added into the PATH environment variable.
 You can achieve that with the following command:
 ```
 # export PATH="$HOME/.composer/vendor/bin:$PATH"
@@ -112,7 +112,7 @@ To ensure drush command works as expected in the console you can execute the fol
 
 #### 7. Sendmail (optional)
 
-Your site should be able to send e-mails. In order to do that SMTP server is required. Most common SMTP server on Linux based operating systems is ```sendmail```.
+Your site should be able to send e-mails. In order to do that, an SMTP server is required. The most common SMTP server on Linux based operating systems is ```sendmail```.
 To install it, following commands should be executed and instructions followed:
 
 ```
