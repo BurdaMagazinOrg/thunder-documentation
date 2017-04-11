@@ -7,15 +7,15 @@
 
 #### Creating new user with sudo rights
 
-By default you get logged as ```ubuntu``` user and that user has sudo rights.
-To create new user ```thunder``` execute following commands:
+By default you get logged in as ```ubuntu``` user and that user has sudo rights.
+To create a new ```thunder``` user, execute following commands:
 
 ```
 # sudo adduser thunder
 # sudo usermod -aG sudo thunder
 ```
 
-After that, you can log as ```thunder``` user and continue with next steps of the installation process.
+After that, you can log in as ```thunder``` user and continue with the next steps of the installation process.
 
 ```
 # sudo su - thunder

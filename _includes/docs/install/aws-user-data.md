@@ -1,5 +1,5 @@
-Here is one example for setup of AWS EC2 Ubuntu 16.04 instance. Script provided here can be copy/pasted in User Data during creation of EC2 instance and it will execute and create everything for you.
-After Instance is up and running, it's sufficient just to open the site in the browser and start with the installation process.
+Here is one example for a setup of an AWS EC2 Ubuntu 16.04 instance. The script provided here can be copy/pasted in User Data during creation of EC2 instance and it will execute and create everything for you.
+After Instance is up and running, it's sufficient to just open the site in the browser and start with the installation process.
 
 There are only three parameters that should be adjusted: ```MYSQL_ROOT_PASSWORD```, ```MYSQL_THUNDER_PASSWORD``` and ```SITE_DOMAIN```.
 ```
@@ -95,7 +95,7 @@ su - -c "composer global require drush/drush && echo 'PATH=\"\$HOME/.composer/ve
 su - -c "composer create-project burdamagazinorg/thunder-project ~/www --no-interaction --quiet" thunder
 
 # Add Virtual Host to Apache
-# Add Virtual Host for 
+# Add Virtual Host for
 cat <<EOF >> /etc/apache2/sites-available/$SITE_DOMAIN.conf
 
 <VirtualHost *:80>
