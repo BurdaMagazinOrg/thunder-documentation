@@ -39,27 +39,27 @@ As members of the Thunder Coalition, publishers, industry partners, and develope
 8. You’re done! Your Thunder site opens and you can start the tour to show you around.
 
 ## What is Thunder?
-### 1. Detailed Feature-List
-### 2. Who is doing this: The Thunder Core Team
+### 1. What do I get with Thunder? (feature-list)
+### 2. Who is doing this?
 The distribution is maintained by the Thunder Core Team. The Thunder Core Team are a small number of publishing experts and computer scientists led by Ingo Rübe, CTO at Hubert Burda Media. They maintain the distribution, handle industry relations, publishers’ requests and offers as well as specialists training. They also run the Coalition’s infrastructure (like [thunder.org](http://thunder.org/)) and organize events. Plus, the Core Team decides which modules are added to or removed from the distribution. The Core Team also ensures that all basic functionality is available free of charge.
-### 3. How to reach the Thunder Core Team
-We’d love to hear about your plans for using Thunder, your feature requests, your potential needs, and your contributions to Thunder and the Community. Follow the @ThunderCoreTeam on [Twitter](https://twitter.com/ThunderCoreTeam) and get the latest news about Thunder-related topics.
+### 3. How to reach the Thunder Core Team?
+We would love to hear about your plans for using Thunder, your feature requests, your potential needs, and your contributions to Thunder and the Community. Follow the @ThunderCoreTeam on [Twitter](https://twitter.com/ThunderCoreTeam) and get the latest news about Thunder-related topics.
 Apart from that, we are available for you at [info@thunder.org](mailto:info@thunder.org) and [technology@thunder.org](mailto:technology@thunder.org) and on the phone: +49 (89) 9250-4617.
-### 4. Slack
-And if you like to chat, join our Slack team at thunder.org/slack.
-### 5. Roadmap
+### 4. Want to chat?
+And if you like to chat, join our Slack team at [thunder.org/slack](http://www.thunder.org/slack).
+### 5. What’s coming? (roadmap)
 ### 6. Wanna support us?
 If you want to help… Here are some things we believe to be important for publishers, but which we are not working on right now:
 * [Workflow initiative](https://www.drupal.org/node/2721129)
 * Keep the reader engaged with a pop-up at the end of the article, recommending other articles or visiting the homepage or similar things
 * Give readers a chance to react to an article and to send a message to the editor
-* Save changes automatically
+* Auto-saving for article editor
 * Set the focal point automatically (for example, at the eyes of a portrayed person)
-* Introduce the paging of article, so one article will consist of different pages
+* Introduce the paging of article, so one article could consist of multiple pages to click through
 * Help with the documentation: proofread and improve our documentation - or volunteer to add something missing
 
 Feel free to start working on any of these topics. To make sure your developments will find their way into the Thunder distribution, please involve us at an early state. We aim at keeping Thunder as modular as possible.
-And if you don’t feel like you could do this on your own - no problem. That’s what the community is for! Just tell us if you want to work on of the topics or if you have any idea how to implement the needed functionality. 
+And if you don’t feel like you could do this on your own - no problem. That’s what the community is for! Just tell us if you want to work on one of the topics or if you have any idea how to implement the needed functionality. 
 
 ## [Tutorials](tutorials)
 1. How to write an article
