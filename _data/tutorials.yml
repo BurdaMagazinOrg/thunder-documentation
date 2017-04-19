@@ -5,6 +5,9 @@
     - title: How to manage media
       include: tutorials/howto-article-media.md
       id: howto-article-media
+    - title: How to add meta data
+      include: tutorials/howto-article-metadata.md
+      id: howto-article-metadata
 - title: How to set-up things
   include: tutorials/howto-setup.md
   id: howto-setup
