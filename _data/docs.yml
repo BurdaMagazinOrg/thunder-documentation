@@ -20,3 +20,19 @@
     - title: AWS EC2 User data example
       include: docs/install/aws-user-data.md
       id: docs-install-post-installation
+- title: Extending
+  id: extending
+  include: docs/extending/index.md
+  subs:
+    - title: Finding extensions
+      id: extending-finding-extensions
+      include: docs/extending/finding-extensions.md
+    - title: Downloading
+      id: extending-downloading
+      include: docs/extending/downloading.md
+    - title: Installing
+      id: extending-installing
+      include: docs/extending/installing.md
+    - title: Configuring
+      id: extending-configuring
+      include: docs/extending/configuring.md

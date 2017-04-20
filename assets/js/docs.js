@@ -9,5 +9,15 @@
       links[i].target = '_blank';
       links[i].className += ' externalLink';
     }
+    if (links[i].innerText.match(/^https?:\/\/example\.org/)) {
+      links[i].className += ' exampleLink'
+      links[i].onclick = function(e) {
+        e.preventDefault()
+        window.prompt("Copy to clipboard: Ctrl+C (Cmd+C), Enter", e.target.innerText)
+      }
+    }
+
   }
+
+
 })();
