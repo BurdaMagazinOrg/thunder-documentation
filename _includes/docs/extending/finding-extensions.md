@@ -1,4 +1,4 @@
-You can find many extension on [Drupal.org](https://www.drupal.org/download).
+You can find many extensions on [Drupal.org](https://www.drupal.org/download).
 Scroll down on the `Download & Extend` page. Here you can either click on `Modules` or `Themes`, to search through all extensions,
 or view the _Most installed_ and newest ones.
 
