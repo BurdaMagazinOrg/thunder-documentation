@@ -1,4 +1,4 @@
-Depending on, whether you have a composer, command-line, drush-make or UI based workflow, the method of downloading themes and modules differs.
+Depending on whether you have a composer, command-line, drush-make or UI based workflow, the method of downloading themes and modules differs.
 
 ### Composer
 Composer is a package manager for PHP and is the future standard for managing the dependencies of your Drupal 8 site and extensions. Go to the [Drupal documentation](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal) for more information.
@@ -42,7 +42,7 @@ The drush-make workflow was the most used one, which involved not checking in al
 but downloading them in the deployment process. It is now replaced by composer and is regarded deprecated.
 
 ### UI
-You can also install modules and themes via the UI, but we _strongly_ advise against that.
+You can also download modules and themes via the UI, but we _strongly_ advise against that.
 If you are still insisting, here is how to do that:
 
 First you have to enable the `Update Manager` module by going to the `Extend` page, selecting the checkbox near it and clicking on `Install` at the bottom of the page. Then go to
