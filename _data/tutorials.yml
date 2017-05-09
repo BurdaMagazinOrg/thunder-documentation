@@ -15,3 +15,6 @@
     - title: Installing Thunder locally
       include: tutorials/howto-setup-install-local.md
       id: howto-setup-install-local
+    - title: Working with channels
+      include: tutorials/howto-channel.md
+      id: howto-channel
