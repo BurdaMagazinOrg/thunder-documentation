@@ -8,6 +8,7 @@ In this tutorial, you can learn about new functionalities in Thunder 2.0:
 * Device preview
 * Compare revisions of an article
 * Access unpublished content
-* Liveblog, Social sharing buttons
+* Liveblog
+* Social sharing buttons
 * Google AMP
 * Handling updates
