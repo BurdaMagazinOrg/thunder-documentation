@@ -1,3 +1,6 @@
+- title: News
+  include: tutorials/release20.md
+  id: release20
 - title: How to create an Article
   include: tutorials/howto-article.md
   id: howto-article
