@@ -11,6 +11,9 @@
     - title: How to add meta data
       include: tutorials/howto-article-metadata.md
       id: howto-article-metadata
+    - title: How to work with Riddle
+      include: tutorials/howto-work-with-riddle.md
+      id: howto-work-with-riddle
 - title: How to set-up things
   include: tutorials/howto-setup.md
   id: howto-setup
@@ -21,3 +24,6 @@
     - title: Working with channels
       include: tutorials/howto-channel.md
       id: howto-channel
+    - title: Integrating Riddle
+      include: tutorials/howto-integrate-riddle.md
+      id: howto-integrate-riddle
