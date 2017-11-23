@@ -1,3 +1,13 @@
+- title: Module List
+  include: docs/thunderdefault-highlights.md
+  id: thunderdefault-highlights
+  subs:
+    - title: Default
+      include: docs/thunderdefault.md
+      id: thunderdefault
+    - title: Optional
+      include: docs/thunderoptional.md
+      id: thunderoptional
 - title: Installation
   include: docs/install.md
   id: docs-install
