@@ -39,3 +39,20 @@
     - title: Configuring
       id: extending-configuring
       include: docs/extending/configuring.md
+- title: Coding Guidelines
+  include: docs/coding-guidelines.md
+  id: docs-coding-guidelines
+  subs:
+    - title: Basic rules
+      include: docs/coding-guidelines/basic-rules.md
+      id: docs-coding-guidelines-basic-rules
+    - title: Developing new features with Git
+      include: docs/coding-guidelines/new-features.md
+      id: docs-coding-guidelines-new-features
+    - title: Drupal versioning
+      include: docs/coding-guidelines/versioning.md
+      id: docs-coding-guidelines-versioning
+    - title: Tests
+      include: docs/coding-guidelines/tests.md
+      id: docs-coding-guidelines-tests
+
