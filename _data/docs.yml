@@ -1,3 +1,6 @@
+- title: Quick install
+  include: docs/quick-install.md
+  id: docs-quick-install
 - title: Installation
   include: docs/install.md
   id: docs-install
