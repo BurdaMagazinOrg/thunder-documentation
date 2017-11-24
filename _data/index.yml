@@ -10,13 +10,8 @@
 - title: How to reach the Thunder Core Team?
   include: index/contact.md
   id: index-contact
-- title: What’s coming? (roadmap)
-  include: index/roadmap.md
-  id: index-roadmap
 - title: Wanna support us?
   include: index/contribution.md
   id: index-contribution
-- title: Quick install
-  include: index/quick-install.md
-  id: index-quick-install
+
 
