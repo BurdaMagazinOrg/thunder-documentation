@@ -1,0 +1,3 @@
+The distribution is maintained by the Thunder Core Team. The Thunder Core Team are a small number of publishing experts and computer scientists led by Ingo Rübe, CTO at Hubert Burda Media. They maintain the distribution, handle industry relations, publishers’ requests and offers as well as specialists training. They also run the Coalition’s infrastructure (like [thunder.org](http://thunder.org/)) and organize events. Plus, the Core Team decides which modules are added to or removed from the distribution. The Core Team also ensures that all basic functionality is available free of charge.
+
+And if you like to chat, join our Slack team at [thunder.org/slack](http://www.thunder.org/slack).
