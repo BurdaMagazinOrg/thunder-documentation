@@ -1,0 +1,2 @@
+We would love to hear about your plans for using Thunder, your feature requests, your potential needs, and your contributions to Thunder and the Community. Follow the @ThunderCoreTeam on [Twitter](https://twitter.com/ThunderCoreTeam) and get the latest news about Thunder-related topics.
+Apart from that, we are available for you at [info@thunder.org](mailto:info@thunder.org) and [technology@thunder.org](mailto:technology@thunder.org) and on the phone: +49 (89) 9250-4617.

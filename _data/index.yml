@@ -1,0 +1,17 @@
+- title: What is Thunder?
+  include: index/description.md
+  id: index-description
+- title: What do I get with Thunder?
+  include: index/highlights.md
+  id: index-highlights
+- title: Who is doing this?
+  include: index/who.md
+  id: index-who
+- title: How to reach the Thunder Core Team?
+  include: index/contact.md
+  id: index-contact
+- title: Wanna support us?
+  include: index/contribution.md
+  id: index-contribution
+
+

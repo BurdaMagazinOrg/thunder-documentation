@@ -11,6 +11,9 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
+        <li{% if page.slug == "modules" %} class="active"{% endif %}>
+        <a href="{{ '/modules' | relative_url }}">Module list</a>
+        </li>
         <li{% if page.slug == "tutorials" %} class="active"{% endif %}>
           <a href="{{ '/tutorials' | relative_url }}">Tutorials</a>
         </li>
@@ -19,7 +22,7 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <!-- <li><a href="{{ site.expo }}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');">Expo</a></li> -->
+        <li><a href="https://github.com/BurdaMagazinOrg/thunder-distribution">View on GitHub</a></li>
         <!-- <li><a href="{{ site.blog }}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Blog</a></li> -->
       </ul>
     </nav>
