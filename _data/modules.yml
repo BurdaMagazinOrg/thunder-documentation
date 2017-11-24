@@ -1,0 +1,10 @@
+- title: Highlights
+  include: modules/highlights.md
+  id: thunderdefault-highlights
+  subs:
+    - title: Installed by default
+      include: modules/default.md
+      id: thunderdefault
+    - title: Optional installable
+      include: modules/optional.md
+      id: thunderoptional
