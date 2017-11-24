@@ -11,6 +11,9 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
+        <li{% if page.slug == "modules" %} class="active"{% endif %}>
+        <a href="{{ '/modules' | relative_url }}">Module list</a>
+        </li>
         <li{% if page.slug == "tutorials" %} class="active"{% endif %}>
           <a href="{{ '/tutorials' | relative_url }}">Tutorials</a>
         </li>
