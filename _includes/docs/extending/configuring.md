@@ -1,7 +1,7 @@
 Configuration options for modules can be in many places.
 The most common places to look for are the `Extend` and the `Configuration` page.
-Both can be accessed via the menu at the top.  
-Also, the documentation of the module on [http://drupal.org]() should point to the correct place.
+Both can be accessed via the menu at the top.
+Also, the documentation of the module on [http://drupal.org](http://drupal.org) should point to the correct place.
 Note that not all modules have configuration pages.
 
 ### Extend page
