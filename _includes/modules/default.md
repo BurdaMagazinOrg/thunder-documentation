@@ -52,6 +52,8 @@
 **Media expire**: This module enables you to unpublish your media entities automatically by setting an expire date.<br />
 [https://www.drupal.org/project/media_expire](https://www.drupal.org/project/media_expire)
 
+**Paragraph Split Text**: This module enables editors to add text to one paragraph and split it afterward to add any other paragraph in between. This functionality was contributed by the Austrian publisher kurier.at. Note that this feature is already part of Thunder, but no contrib module, yet.
+
 **Pathauto**: The Pathauto module automatically generates URL/path aliases for various kinds of content (nodes, taxonomy terms, users) without requiring the user to manually specify the path alias. The aliases are based upon a "pattern" system that uses tokens which the administrator can change.<br />
 [https://www.drupal.org/project/pathauto](https://www.drupal.org/project/pathauto)
 
