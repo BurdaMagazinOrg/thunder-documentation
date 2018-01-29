@@ -25,6 +25,9 @@
 **Inline Entity Form**: Provides a widget for inline management (creation, modification, removal) of referenced entities. For example, pictures, videos, or social media cards can be edited in the article form.<br />
 [https://www.drupal.org/project/inline_entity_form](https://www.drupal.org/project/inline_entity_form)
 
+**Length Indicator**: With the help of the module Length Indicator, you can add a colored length indicator to form fields. You can choose an area of optimal length and a tolerance, which will be added and subtracted to/from the optimal boundaries. In Thunder, we implemented the Length Indicator for the SEO text field.<br />
+[https://www.drupal.org/project/length_indicator](https://www.drupal.org/project/length_indicator)
+
 **Libraries API**: This module introduces a common repository for libraries so the same library can be shared by more than one module and more than one site. It also eases the process of upgrading a module that requires an external library and prevents incompatibilities.<br />
 [https://www.drupal.org/project/libraries](https://www.drupal.org/project/libraries)
 
@@ -56,6 +59,9 @@
 
 **Pathauto**: The Pathauto module automatically generates URL/path aliases for various kinds of content (nodes, taxonomy terms, users) without requiring the user to manually specify the path alias. The aliases are based upon a "pattern" system that uses tokens which the administrator can change.<br />
 [https://www.drupal.org/project/pathauto](https://www.drupal.org/project/pathauto)
+
+**Redirect**: The Redirect module automatically adds redirects if the URL of an article has been changed. <br />
+[https://www.drupal.org/project/redirect](https://www.drupal.org/project/redirect)
 
 **Responsive Preview**: The Responsive Preview module provides editors with a quick way to preview how their site's pages will appear at narrow and wide width dimensions on different devices.<br />
 [https://www.drupal.org/project/responsive_preview](https://www.drupal.org/project/responsive_preview)
