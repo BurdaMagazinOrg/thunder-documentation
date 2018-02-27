@@ -7,3 +7,6 @@
 - title: Optional installable
   include: modules/optional.md
   id: thunderoptional
+- title: Required modules
+  include: modules/required.md
+  id: thunderrequired
