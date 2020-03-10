@@ -28,22 +28,8 @@
   </section>
 
   <section class="main-content container">
-    <div class="col-md-9" role="main">
+    <div class="col-md-12" role="main">
       {{ content }}
-    </div>
-    <div class="col-md-3">
-      <div class="docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
-        <ul class="nav docs-sidenav">
-          <!-- Just include navigation based on slug, an include and site.data -->
-          {% if page.slug and site.data[page.slug] %}
-            {% assign sidebarItems=site.data[page.slug] %}
-            {% include _nav/sidebar.html items=sidebarItems %}
-          {% endif %}
-        </ul>
-        <a class="back-to-top" href="#top">
-          Back to top
-        </a>
-      </div>
     </div>
   </section>
 

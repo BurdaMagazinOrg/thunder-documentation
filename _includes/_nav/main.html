@@ -10,20 +10,8 @@
       <a href="{{ '/' | relative_url }}" class="navbar-brand">Thunder</a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li{% if page.slug == "modules" %} class="active"{% endif %}>
-        <a href="{{ '/modules' | relative_url }}">Module list</a>
-        </li>
-        <li{% if page.slug == "tutorials" %} class="active"{% endif %}>
-          <a href="{{ '/tutorials' | relative_url }}">Tutorials</a>
-        </li>
-        <li{% if page.slug == "docs" %} class="active"{% endif %}>
-          <a href="{{ '/docs' | relative_url }}">Documentation</a>
-        </li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="https://github.com/BurdaMagazinOrg/thunder-distribution">View on GitHub</a></li>
-        <!-- <li><a href="{{ site.blog }}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Blog</a></li> -->
       </ul>
     </nav>
   </div>
