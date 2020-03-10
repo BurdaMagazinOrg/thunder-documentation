@@ -3,5 +3,4 @@ title: Thunder
 permalink: /
 slug: index
 ---
-{% assign items=site.data.index %}
-{% include _layout/page-with-sidebar.html items=items %}
+The Thunder documentation has moved to <a href="https://thunder.github.io/thunder-documentation/">https://thunder.github.io/thunder-documentation</a>.
